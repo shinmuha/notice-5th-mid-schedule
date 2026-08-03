@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>제5기 중급현장지휘관 자격인증 과정 – 보조강사 참여 명단</title>
+<meta property="og:title" content="제5기 중급현장지휘관 자격인증 과정 – 보조강사 참여 명단">
+<meta property="og:description" content="부산소방학교 지휘역량강화센터">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #f5f2ec;
+    color: #2a2620;
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 28px 16px 48px;
+    word-break: keep-all;
+  }
+
+  .title-block {
+    text-align: center;
+    padding: 24px 12px 20px;
+    border-bottom: 1px solid #c8bfaa;
+    margin-bottom: 20px;
+  }
+  .title-bracket { font-family: 'IBM Plex Sans KR', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 2px; color: #6b6255; margin-bottom: 8px; }
+  .title-main {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #2a2620;
+    line-height: 1.5;
+  }
+  .title-main .green { color: #2a7a4a; }
+  .title-sub { font-family: 'IBM Plex Sans KR', sans-serif; font-weight: 600; font-size: 18px; color: #6b6255; margin-top: 6px; }
+  .title-sub.red { color: #8a1f1f; font-weight: 700; }
+
+  .greeting {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.85;
+    color: #3a342c;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  .greeting .gold { color: #8a6a20; font-weight: 700; }
+  .greeting-note {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #8a1f1f;
+    text-align: center;
+    margin-top: -14px;
+    margin-bottom: 24px;
+  }
+
+  .closing {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.85;
+    color: #3a342c;
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px solid #c8bfaa;
+  }
+  .closing .gold { color: #8a6a20; }
+
+  .contact {
+    text-align: center;
+    font-size: 15px;
+    color: #6b6255;
+    margin-top: 14px;
+  }
+  .contact strong { color: #2a2620; }
+
+  /* 핵심 요약 (상단 강조) */
+  .core-summary {
+    background: #3a342c;
+    border-radius: 12px;
+    padding: 18px 18px;
+    margin-bottom: 26px;
+  }
+  .core-summary .cs-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #e0b040;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .cs-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #52493d;
+    gap: 10px;
+  }
+  .cs-row:last-child { border-bottom: none; }
+  .cs-date { color: #f5f2ec; font-weight: 900; font-size: 18px; }
+  .d-num { display: inline-block; min-width: 50px; font-variant-numeric: tabular-nums; }
+  .cs-date .d-num { min-width: 54px; }
+
+  .cs-time { color: #f5f2ec; font-weight: 900; font-size: 16px; }
+  .cs-count { font-weight: 900; font-size: 18px; white-space: nowrap; }
+  .cs-hours { color: #c9a35a; font-weight: 700; }
+  .cnt-2 { color: #6fb8f5; }
+  .cnt-4 { color: #f0935f; }
+
+  .cs-info {
+    font-size: 14px;
+    color: #c9bfa8;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #52493d;
+  }
+  .cs-info.cs-info-only { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+  .cs-info strong { color: #e0b040; font-weight: 700; }
+  .cs-info .red { color: #d64545; font-weight: 700; }
+
+  /* 날짜 카드 */
+  .date-card {
+    background: #ffffff;
+    border: 1px solid #ddd5c4;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 16px;
+  }
+  .dc-header {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  .dc-date { font-family: 'IBM Plex Sans KR', sans-serif; font-weight: 900; font-size: 19px; color: #2a2620; }
+  .dc-badge {
+    font-size: 13px;
+    font-weight: 900;
+    padding: 3px 10px;
+    border-radius: 6px;
+    color: #f5f2ec;
+    white-space: nowrap;
+  }
+  .dc-badge.cnt-2 { background: #2a5a9a; }
+  .dc-badge.cnt-4 { background: #a85320; }
+  .dc-time {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #8a6a20;
+    background: #f5efe0;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-bottom: 12px;
+  }
+  .dc-role { font-size: 13px; color: #8a6a20; font-weight: 700; margin-bottom: 8px; }
+
+  .name-list { display: flex; flex-wrap: wrap; gap: 10px; }
+  .name-tag {
+    background: #eee8dc;
+    border-radius: 8px;
+    padding: 9px 13px;
+    font-size: 16px;
+  }
+  .name-tag .n { font-weight: 700; color: #2a2620; }
+  .name-tag .a { font-size: 12.5px; color: #6b6255; margin-top: 2px; }
+
+  .week-title {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #2a2620;
+    padding: 6px 0;
+    margin: 22px 0 10px;
+    border-top: 1px solid #c8bfaa;
+  }
+  .week-title .range { font-size: 13px; font-weight: 400; color: #6b6255; margin-left: 8px; }
+
+  .signature {
+    text-align: right;
+    margin-top: 26px;
+    font-size: 14px;
+    color: #6b6255;
+    border-top: 1px solid #c8bfaa;
+    padding-top: 14px;
+    line-height: 1.8;
+  }
+  .signature strong { color: #2a2620; font-size: 16px; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="title-block">
+  <div class="title-bracket">부산소방학교 지휘역량강화센터</div>
+  <div class="title-main">제5기 <span class="green">중급</span>현장지휘관<br>자격인증 과정</div>
+  <div class="title-sub red">보조강사 참여 명단 안내</div>
+</div>
+
+<div class="greeting">
+  바쁘신 일정 중에도 참여 지원해주셔서<br>진심으로 감사드립니다.<br>일정별 참여 명단을 아래와 같이 안내드립니다.
+</div>
+<div class="greeting-note">※ 본인 소속 등 오류 사항은 톡 남겨주세요~</div>
+
+<!-- 핵심 요약 -->
+<div class="core-summary">
+  <div class="cs-title">▪ 참여 안내</div>
+  <div class="cs-info cs-info-only">
+    <strong>선정원칙 우선순위</strong> : 1. 휴무자&nbsp;&nbsp;2. 지원자 최대한 반영<br>
+    <strong>복장</strong> : <span class="red">활동복(조끼착용)</span> &nbsp;·&nbsp; 도착시간은 전날 공지
+  </div>
+</div>
+
+<div class="date-card">
+  <div class="dc-header">
+    <div class="dc-date"><span class="d-num">9. 4.</span>(금)</div>
+    <div class="dc-badge cnt-4">4명</div>
+  </div>
+  <div class="dc-time">10:00~14:50 (4시간)</div>
+  <div class="dc-role">무전보조 · 훈련실 A/B</div>
+  <div class="name-list">
+    <div class="name-tag"><div class="n">김동현</div><div class="a">사상소방서 삼락센터</div></div>
+    <div class="name-tag"><div class="n">김동효</div><div class="a">강서소방서 대저센터</div></div>
+    <div class="name-tag"><div class="n">손주환</div><div class="a">남부소방서 광안센터</div></div>
+    <div class="name-tag"><div class="n">신서원</div><div class="a">항만소방서 부두센터</div></div>
+  </div>
+</div>
+
+<div class="date-card">
+  <div class="dc-header">
+    <div class="dc-date"><span class="d-num">9. 7.</span>(월)</div>
+    <div class="dc-badge cnt-2">2명</div>
+  </div>
+  <div class="dc-time">10:00~16:50 (6시간)</div>
+  <div class="dc-role">퍼실보조</div>
+  <div class="name-list">
+    <div class="name-tag"><div class="n">김민정</div><div class="a">북부소방서 금곡센터</div></div>
+    <div class="name-tag"><div class="n">손주환</div><div class="a">남부소방서 광안센터</div></div>
+  </div>
+</div>
+
+<div class="date-card">
+  <div class="dc-header">
+    <div class="dc-date"><span class="d-num">9. 8.</span>(화)</div>
+    <div class="dc-badge cnt-2">2명</div>
+  </div>
+  <div class="dc-time">10:00~16:50 (6시간)</div>
+  <div class="dc-role">퍼실보조</div>
+  <div class="name-list">
+    <div class="name-tag"><div class="n">안준식</div><div class="a">강서소방서 공항센터</div></div>
+    <div class="name-tag"><div class="n">유주형</div><div class="a">부산진소방서 구조대</div></div>
+  </div>
+</div>
+
+<div class="date-card">
+  <div class="dc-header">
+    <div class="dc-date"><span class="d-num">9. 9.</span>(수)</div>
+    <div class="dc-badge cnt-2">2명</div>
+  </div>
+  <div class="dc-time">10:00~16:50 (6시간)</div>
+  <div class="dc-role">퍼실보조</div>
+  <div class="name-list">
+    <div class="name-tag"><div class="n">서승현</div><div class="a">남부소방서 광안센터</div></div>
+    <div class="name-tag"><div class="n">유재성</div><div class="a">양산소방서 현장대응단</div></div>
+  </div>
+</div>
+
+<div class="date-card">
+  <div class="dc-header">
+    <div class="dc-date"><span class="d-num">9. 10.</span>(목)</div>
+    <div class="dc-badge cnt-4">4명</div>
+  </div>
+  <div class="dc-time">09:00~16:50 (7시간)</div>
+  <div class="dc-role">퍼실보조 1 · 평가무전 3</div>
+  <div class="name-list">
+    <div class="name-tag"><div class="n">김동현</div><div class="a">사상소방서 삼락센터</div></div>
+    <div class="name-tag"><div class="n">김동효</div><div class="a">강서소방서 대저센터</div></div>
+    <div class="name-tag"><div class="n">신서원</div><div class="a">항만소방서 부두센터</div></div>
+    <div class="name-tag"><div class="n">이현정</div><div class="a">부산진소방서 부전센터</div></div>
+  </div>
+</div>
+
+<div class="date-card">
+  <div class="dc-header">
+    <div class="dc-date"><span class="d-num">9. 11.</span>(금)</div>
+    <div class="dc-badge cnt-4">4명</div>
+  </div>
+  <div class="dc-time">09:00~14:50 (5시간)</div>
+  <div class="dc-role">퍼실보조 1 · 평가무전 3</div>
+  <div class="name-list">
+    <div class="name-tag"><div class="n">박주화</div><div class="a">기장소방서 일광센터</div></div>
+    <div class="name-tag"><div class="n">안준식</div><div class="a">강서소방서 공항센터</div></div>
+    <div class="name-tag"><div class="n">유주형</div><div class="a">부산진소방서 구조대</div></div>
+    <div class="name-tag"><div class="n">표병희</div><div class="a">진주소방서 평거센터</div></div>
+  </div>
+</div>
+
+<div class="closing">
+  <span class="gold">보조강사분들이 함께해 주신 시간들이 쌓여,</span><br>오늘의 부산소방학교 ICTC를 만들었습니다.<br>앞으로도 잘 부탁드립니다.
+</div>
+
+<div class="contact">문의사항 : 신태선 &nbsp;<strong>010-7662-3922</strong></div>
+
+<div class="signature">
+  부산소방학교<br>
+  <strong>지휘역량강화센터</strong>
+</div>
+
+</body>
+</html>
